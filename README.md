@@ -3,7 +3,7 @@
 1. Install dependencies, including playwright browsers if necessary (`npx  playwright install`)
 2. Run `(p)npm test`
 3. Run `(p)npm run preview`
-4. Load the html report preview in the browser (`http://localhost:4173/`).
+4. Load the html report preview in the browser (`http://localhost:4173/reports/index.html`).
 5. Observe the "Test Artifacts" section of the failed test result:
    ![alt text](image.png)
    The image path, as displayed int he bottom left of the browser, is malformed.

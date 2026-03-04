@@ -7,6 +7,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   test: {
+    outputFile: 'html/reports/index.html',
     browser: {
       enabled: true,
       headless: true,
